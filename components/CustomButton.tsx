@@ -1,4 +1,4 @@
-import {TouchableOpacity, Text} from "react-native";
+import {Text, TouchableOpacity} from "react-native";
 interface ICustomButton {
     title: string,
     containerStyles: string,
@@ -19,3 +19,4 @@ const CustomButton = ({ title, handlePress, containerStyles, isLoading, textStyl
     )
 }
 export default CustomButton;
+
